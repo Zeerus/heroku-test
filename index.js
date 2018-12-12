@@ -9,7 +9,7 @@ var PORT = process.env.PORT || 3000;
 // Routes
 // ===========================================================
 app.get("/", function(req, res) {
-  res.send(path.join(__dirname, "public/index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 app.listen(PORT, function() {
