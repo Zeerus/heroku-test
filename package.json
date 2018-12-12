@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeerus/heroku-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zeerus/heroku-test/issues"
+  },
+  "homepage": "https://github.com/Zeerus/heroku-test#readme"
 }
